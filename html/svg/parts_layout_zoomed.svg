@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg1475"
+   version="1.1"
+   viewBox="0 0 1428.0444 1071.0333"
+   height="1071.0333mm"
+   width="1428.0444mm">
+  <defs
+     id="defs1469" />
+  <metadata
+     id="metadata1472">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(378.37936,300.50476)"
+     id="layer1">
+    <image
+       width="1428.0444"
+       height="1071.0333"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       xlink:href="file:///Users/jonathanjohnson/git/spookyrobotics_nyc/jpg/parts_layout_zoomed.jpg"
+       id="image1536"
+       x="-378.37936"
+       y="-300.50476" />
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About: SpookyRobotics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <style>
+      .parent {
+          display: grid;
+          grid-template-columns: 1fr ;
+          grid-template-rows: 1fr 4fr 4fr 1fr;
+          text-align: center;
+          height: 100vh;
+      }
+
+      /* Mobile First Design */
+      .title_bar {
+          display: grid;
+          grid-template-columns: 1fr;
+          text-align: left;
+          text-align: center;
+      }
+
+      .scaling_image {
+        display: block;
+        max-width: 50vw;
+        max-height: 50vh;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+      /* Tablet Design */
+      @media only screen and (min-width: 900px) {
+
+      }
+
+      /* Desktop Design */
+      @media only screen and (min-width: 1200px) {
+      }
+
+
+    </style>
+  </head>
+  <body>
+  <div class="parent">
+    <div class="title_bar">
+      <p> <b>SpookyRobotics</b> <p>An Open Source Hardware Company </p>
+    </div>
+    <div class="project_section section_one">
+      <hr>
+      <img class="scaling_image" src="jpg/motivational_speaker.jpg" />
+      <div class="section_description">
+        <p>
+          An electrical engineer, self taught programmer, and novice scientist.<br>
+          Enthusiastic about biomimicry, machine learning, embedded systems and engineering principals.<br>
+	  I was voted most likely to be a motivational speaker once.
+        </p>
+        <p>
+          I learned to program on my TI-83+ calculator, using open source code
+          bases of games. I studied electrical engineering in college,
+          and in my first professional job learned Android development.
+          Like most American students, I had a large amount of student loans that needed to be paid off.
+          To get ahead I started freelancing, and that evolved into tutoring students at an Android bootcamp.
+        </p>
+        <p>
+          I founded SpookyRobotics after being approached by former students who wanted to continue
+          guided study. All projects posted here can be recreated by aspiring engineers, and we welcome
+          contributions. I sincerely hope you use the information on this site to further progress in
+          your own ventures. Visit the <a href="https://spookyrobotics.nyc/getting-started.html">Getting Started</a> page to
+          learn about our work environment.
+        </p>
+      </div>
+      <hr>
+    </div>
+
+    <div class="footer">
+      <a href="/">Home</a><br>
+      <a href="/getting-started.html">Getting Started</a><br>
+      <a href="https://github.com/spookyrobotics">Github</a>
+    </div>
+  </div>
+  </body>
+</html>

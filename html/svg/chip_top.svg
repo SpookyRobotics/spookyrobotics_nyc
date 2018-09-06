@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg1023"
+   version="1.1"
+   viewBox="0 0 1071.0333 1428.0444"
+   height="1428.0444mm"
+   width="1071.0333mm">
+  <defs
+     id="defs1017" />
+  <metadata
+     id="metadata1020">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(193.82619,488.08173)"
+     id="layer1">
+    <image
+       width="1071.0333"
+       height="1428.0444"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       xlink:href="file:///Users/jonathanjohnson/git/spookyrobotics_nyc/jpg/chip_top.jpg"
+       id="image1084"
+       x="-193.82619"
+       y="-488.08173" />
+  </g>
+</svg>
