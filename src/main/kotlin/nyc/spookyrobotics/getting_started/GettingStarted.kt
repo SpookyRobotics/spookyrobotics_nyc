@@ -3,15 +3,17 @@ package nyc.spookyrobotics.getting_started
 import nyc.spookyrobotics.WebPage
 
 class GettingStarted : WebPage() {
+    override fun title(): String = "Getting Started: SpookyRobotics"
+
     override fun path(): String = "/getting-started.html"
 
     override fun content(): String = """
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Getting Started: SpookyRobotics</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
+    ${buildTitle()}
+    ${buildViewport()}
+    ${buildCharset()}
     <style>
       .parent {
           display: grid;

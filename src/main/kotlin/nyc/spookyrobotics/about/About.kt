@@ -3,15 +3,17 @@ package nyc.spookyrobotics.about
 import nyc.spookyrobotics.WebPage
 
 class About: WebPage() {
+    override fun title(): String = "SpookyRobotics"
+
     override fun path(): String = "/about.html"
 
     override fun content(): String = """
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>SpookyRobotics</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
+    ${buildTitle()}
+    ${buildViewport()}
+    ${buildCharset()}
     <style>      /* Mobile First Design */
 
       .parent {
